@@ -5,11 +5,11 @@
   gather_facts: false
   vars:
     int_descs: 
-      - adminuser
-      - mfguser
+#      - adminuser
+#      - mfguser
       - printer
-      - ap
-      - uplink 
+#      - ap
+#      - uplink 
 
     headers: Hostname,reason,config
     email_subject: Interface Noncompliance Report
@@ -29,8 +29,8 @@
 #        - '!min'
 #        - 'min'
       gather_network_resources:
-        - l2_interfaces
-        # - interfaces
+#        - l2_interfaces
+        - interfaces
     register: port_info
 
   - name: make the collected info a list for looping over
