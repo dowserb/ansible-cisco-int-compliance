@@ -1,7 +1,7 @@
 ---
 # uses this role https://github.com/gregsowell/ansible-report
 - name: reporting non compliance on interface configs
-  hosts: csr1000v
+  hosts: dil_uat_switches
   gather_facts: false
   vars:
     int_descs: 
