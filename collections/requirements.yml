@@ -1,22 +1,22 @@
 collections:
 # Install a collection from Ansible Galaxy.
-  - name: cisco.asa
-    version: 3.1.0
-    source: https://galaxy.ansible.com
+#  - name: cisco.asa
+#    version: 3.1.0
+#    source: https://galaxy.ansible.com
   - name: cisco.ios
     source: https://galaxy.ansible.com
-  - name: cisco.nxos
-    version: 1.1.1-dev4
-    source: https://galaxy.ansible.com
-  - name: ansible.netcommon
-    version: 3.1.1
-    source: https://galaxy.ansible.com 
-  - name: community.network
-    version: 4.0.1
-    source: https://galaxy.ansible.com
-  - name: fortinet.fortimanager
-    version: 2.1.5
-    source: https://galaxy.ansible.com
-  - name: fortinet.fortios
-    version: 2.1.7
-    source: https://galaxy.ansible.com
+#  - name: cisco.nxos
+#    version: 1.1.1-dev4
+#    source: https://galaxy.ansible.com
+#  - name: ansible.netcommon
+#    version: 3.1.1
+#    source: https://galaxy.ansible.com 
+#  - name: community.network
+#    version: 4.0.1
+#    source: https://galaxy.ansible.com
+#  - name: fortinet.fortimanager
+#    version: 2.1.5
+#    source: https://galaxy.ansible.com
+#  - name: fortinet.fortios
+#    version: 2.1.7
+#    source: https://galaxy.ansible.com
