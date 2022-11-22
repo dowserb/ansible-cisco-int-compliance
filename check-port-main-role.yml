@@ -10,9 +10,14 @@
       - printer
       - ap
       - uplink
+    ansible_connection: ansible.netcommon.network_cli
+    ansible_network_os: cisco.ios.ios
+    ansible_become: yes
+    ansible_become_method: enable 
 
     headers: Hostname,reason,config
     email_subject: Interface Noncompliance Report
+
 
   tasks:
 #  - name: fail if not in check mode
