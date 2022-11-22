@@ -1,14 +1,14 @@
 ---
 - name: reporting non compliance on interface configs
-  hosts: rtr1
+  hosts: dil_uat_switches
   gather_facts: false
   vars:
     int_descs: 
-      - adminuser
-      - mfguser
+#      - adminuser
+#      - mfguser
       - printer
       - ap
-      - uplink
+#      - uplink
 
   tasks:
 #  - name: fail if not in check mode
